@@ -23,7 +23,7 @@ body{
 .weather-show{
     width: 100%;
     height:200px;
-    background-color:rgb(116, 72, 173);
+    background-color:rgb(132, 92, 197);
     color: #fff;
     border-top: 2px solid rgb(201, 106, 230);
 }
