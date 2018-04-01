@@ -13,7 +13,7 @@ body{
 .weather-picture{
     width:100%;
     height:400px;
-    background-color: #7a30a980;
+    background-color: rgb(125, 72, 158);
     background-image: url('img/bbb.gif');
     background-position:0 -200px;
     background-repeat:no-repeat;
