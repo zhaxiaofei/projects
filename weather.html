@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="referrer" content="never">
+    <title>查小飞作品：天气预报</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+    <div class="weather-wrapper">
+        <div class="weather-picture">
+            <div class="user-search">
+                <input type="text" placeholder="请输入城市查询" id='userinput' autofocus='autofocus'>
+            </div>
+            <div class="user-location">
+                <div class="loaction-icon">
+                    <img src="img/local.png" alt="">
+                </div>
+                <div class="location-name"></div>
+                <div class="location-time"></div>
+            </div>
+        </div>
+        <div class="weather-show">
+            <div class="today-weather">
+                <div class="left">
+                    <div class="weekday">今天</div>
+                    <div class="today-date"></div>
+                    <div class="tempt"></div>
+                </div>
+                <div class="right">
+                    <div class="weather-icon">
+                        <img src="" alt="天气图标">
+                    </div>
+                    <div class="weather-status1"></div>
+                    <div class="wind1">
+                        <img src="img/wind.png" alt="风速">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="future-weather">
+                <ul>
+                    <li>
+                        <div class='future-day'>后天</div>
+                        <div class='afterTomm'>
+                            <img src="" alt="">
+                        </div>
+                        <div class='aftertom-tempt'></div>
+                        <div class="weather-status3"></div>
+                    </li>
+                    <li>
+                        <div class='future-day'>明天</div>
+                        <div class='tommorw'>
+                            <img src="" alt="">
+                        </div>
+                        <div class='tommorrow-tempt'></div>
+                        <div class="weather-status2"></div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="author">
+        <span>©2018 查小飞</span>
+    </div>
+    <script src='weather.js'></script>
+</body>
+</html>
