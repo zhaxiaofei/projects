@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color:#9f66c380;
+    background-color:rgb(188, 156, 230);
 }
 .weather-wrapper{
     max-width:1000px;
@@ -23,7 +23,7 @@ body{
 .weather-show{
     width: 100%;
     height:200px;
-    background-color:#7a30a980;
+    background-color:rgb(116, 72, 173);
     color: #fff;
     border-top: 2px solid rgb(201, 106, 230);
 }
